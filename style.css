@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+h1{
+    background-color: black;
+    color: bisque;
+    text-align: center;
+    padding: 10px;
+    font-size:30px;
+    
+}
+#home::before{
+    content: '';
+    position: absolute;
+    background-image: url('./emil-widlund-xrbbXIXAWY0-unsplash.jpg');
+    width: 100%;
+    height: 690px;
+    background-size:cover;
+    background-position: center;
+    z-index: -1;
+    opacity: 1.0;
+}
+.row{
+    /* background-color: bisque; */
+    width:1200px ;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.col{
+    width: 500px;
+    height: 550px;
+    background-color: rgba(23, 23, 23, 0.533);
+    margin: 10px;
+    position:relative;
+    top: 10%;
+    text-align: justify;
+    justify-content:space-evenly;
+    justify-content:left;
+    color: aliceblue;
+    /* border: 20px solid white; */
+    box-shadow: 3px 4px 6px 2px   rgb(190, 180, 180);
+    
+}
+h2{
+    color: rgb(246, 242, 241);
+    background-color: rgb(23, 24, 25);
+    text-align: center;
+}
+input{
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    color: rgb(238, 216, 216);
+    background-color: rgb(22, 21, 21);
+}
+.col1{
+    text-align: justify;
+}
+p{
+    text-align: justify;
+    padding: 10px;
+}
+
+
